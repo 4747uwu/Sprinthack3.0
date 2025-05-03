@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import myImage from '../assets/farmer.jpg';
 import Delhi from '../assets/delhi.png';
-import road from '../assets/mumbai.png';
+import road from '../assets/pune.jpg';
 import forest from '../assets/hyderabad.png';
 
 
@@ -51,7 +51,7 @@ export default function GallerySection() {
   return (
     <section className="py-16 bg-slate-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold tracking-tight text-center mb-12 md:text-4xl">Inspiration Gallery</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-center mb-12 md:text-4xl">Civic Surge Gallery</h2>
 
         <div className="relative overflow-hidden rounded-xl shadow-lg bg-white">
           <AnimatePresence mode="wait">

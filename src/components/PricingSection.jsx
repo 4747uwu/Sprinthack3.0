@@ -54,7 +54,7 @@ function PricingCard({ plan, billing }) {
             ₹{billing === "monthly" ? plan.monthly : plan.annually}
           </span>
           <span className={`text-sm ${plan.highlight ? "text-slate-300" : "text-slate-500"}`}>
-            /{billing === "monthly" ? "month" : "month, billed annually"}
+            /{billing === "monthly" ? "month" : "annually billed "}
           </span>
         </div>
       </div>
@@ -138,7 +138,7 @@ export default function PricingSection() {
             >
               Annually
               <span className="ml-1 text-xs py-0.5 px-1.5 bg-emerald-100 text-emerald-700 rounded-full">
-                Save 35%
+                Save 49%
               </span>
             </button>
           </div>
