@@ -5,8 +5,6 @@
       "destination": "/index.html"
     }
   ],
-  "framework": "vite",
-  "installCommand": "npm install --omit=optional",
   "buildCommand": "npm run vercel-build",
   "outputDirectory": "dist"
 }

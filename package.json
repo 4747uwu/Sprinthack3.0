@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "vercel-build": "vite build"
+    "vercel-build": "npm uninstall rollup && npm install rollup@2.79.1 && vite build"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.11",
